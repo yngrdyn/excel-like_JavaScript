@@ -1,0 +1,190 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/excel-like.css">
+	</head>
+	<body>
+		<div id="ribbon">
+			<div id="copyit" class="clickable" title="Copy - Ctrl + c"></div>
+			<div id="pasteit" class="clickable" title="Paste - Ctrl + v"></div>
+			<div id="boldit" class="clickable" title="Bold"></div>
+			<div id="bucketit" class="clickable" title="Fill Color">
+				<div id="bucketSelect" class="selectContainer">
+					<div id="bucket"></div>
+					<div id="bucketColor" data-element="colorize" class="color-0B3861"></div>
+				</div>
+				<div class="selectContainer">
+					<div id="bucketArrow" class="selectArrow"></div>
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+			<div id="colorit" class="clickable" title="Font Color">
+				<div id="charSelect" class="selectContainer">
+					<div id="char"></div>
+					<div id="charColor" data-element="colorize" class="color-000000"></div>
+				</div>
+				<div class="selectContainer">
+					<div id="colorArrow" class="selectArrow"></div>
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+			<div id="leftit" class="clickable alignment" title="Align Left"></div>
+			<div id="centerit" class="clickable alignment" title="Align Center"></div>
+			<div id="exportit" class="clickable" title="Export to excel"></div>
+			<div style="clear:both;"></div>
+		</div>
+		<table id="IA" cellspacing="0">
+			<tr>
+				<th oncontextmenu="showMenu();return false;"></th>
+				<th class="nameBar top" data-name="A">A</th>
+				<th class="nameBar top" data-name="B">B</th>
+				<th class="nameBar top" data-name="C">C</th>
+				<th class="nameBar top" data-name="D">D</th>
+				<th class="nameBar top" data-name="E">E</th>
+				<th class="nameBar top" data-name="F">F</th>
+				<th class="nameBar top" data-name="G">G</th>
+				<th class="nameBar top" data-name="H">H</th>
+				<th class="nameBar top" data-name="I">I</th>
+			</tr>
+			<tr>
+				<th class="nameBar left" data-name="1">1</th>
+				<td class="content first top"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content top"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content top"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content top"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content top"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content top"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content top"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content top"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content top"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+			</tr>
+			<tr>
+				<th class="nameBar left" data-name="2">2</th>
+				<td class="content first"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+			</tr>
+			<tr>
+				<th class="nameBar left" data-name="3">3</th>
+				<td class="content first"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+			</tr>
+			<tr>
+				<th class="nameBar left" data-name="4">4</th>
+				<td class="content first"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+			</tr>
+			<tr>
+				<th class="nameBar left" data-name="5">5</th>
+				<td class="content first"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+			</tr>
+			<tr>
+				<th class="nameBar left" data-name="6">6</th>
+				<td class="content first"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+			</tr>
+			<tr>
+				<th class="nameBar left" data-name="7">7</th>
+				<td class="content first"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+			</tr>
+			<tr>
+				<th class="nameBar left" data-name="8">8</th>
+				<td class="content first"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+			</tr>
+			<tr>
+				<th class="nameBar left" data-name="9">9</th>
+				<td class="content first"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+			</tr>
+			<tr>
+				<th class="nameBar left" data-name="10">10</th>
+				<td class="content first"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+				<td class="content"><div class='contentText'></div><div class="ExcelCursorOuter"><textarea rows="1"></textarea><div class="ExcelCursor ui-state-default"></div></div></td>
+			</tr>
+		</table>
+
+		<div id="contextmenu">
+			<p id="insertCol">Insert</p>
+			<p id="deleteCol">Delete</p>
+		</div>
+		
+		<div id="colorMenu">
+			<div id="color-000000" class="colorDiv"></div>
+			<div id="color-0B3861" class="colorDiv"></div>
+			<div id="color-ff0000" class="colorDiv"></div>
+			<div id="color-ffffff" class="colorDiv"></div>
+			<div style="clear:both;"></div>
+		</div>
+		
+		<script src="js/jquery-latest.min.js" type="text/javascript"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/excel-like.js" type="text/javascript"></script>
+		<script src="js/autosize.js" type="text/javascript"></script>
+		<script src="js/colResizable-1.6.min.js" type="text/javascript"></script>
+		<script src="js/jquery.battatech.excelexport.min.js" type="text/javascript"></script>
+	</body>
+</html>
