@@ -1,0 +1,34 @@
+excel like backup
+	/*if(initialRow != endRow || initialColumn != endColumn){
+		var updownClass = "";
+		for(var i=parseInt(initialRow)+1; i<=parseInt(endRow)+1;i++){
+			updownClass = "";
+			if(i!=parseInt(initialRow)+1 && i!=parseInt(endRow)+1){
+				updownClass = "updownBorderless";
+			}else{
+				if(i==parseInt(endRow)+1){
+					if(i!=parseInt(initialRow)+1)
+						updownClass = "downBorderless";
+				}else{
+					if(i!=parseInt(endRow)+1)
+						updownClass = "upBorderless";
+				}
+			}
+			for(var j=parseInt(initialColumn)+1;j<=parseInt(endColumn)+1;j++){
+				$("table").find('tr:nth-child(' + (i) + ')').find('td:nth-child('+ (j) +')').addClass(updownClass);
+				if(j!=parseInt(initialColumn)+1 && j!=parseInt(endColumn)+1){
+					$("table").find('tr:nth-child(' + (i) + ')').find('td:nth-child('+ (j) +')').addClass('sideBorderless');
+				}else{
+					if(j==parseInt(endColumn)+1){
+						if(j!=parseInt(initialColumn)+1){
+							$("table").find('tr:nth-child(' + (i) + ')').find('td:nth-child('+ (j) +')').addClass('leftBorderless');
+						}
+					}else{
+						if(j!=parseInt(endColumn)+1){
+						$("table").find('tr:nth-child(' + (i) + ')').find('td:nth-child('+ (j) +')').addClass('rigthBorderless');
+						}
+					}	
+				}
+			}
+		}
+	}*/
